@@ -13,6 +13,8 @@
 		9BBC27ED238D5B640046AA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBC27EB238D5B640046AA10 /* Main.storyboard */; };
 		9BBC27EF238D5B670046AA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBC27EE238D5B670046AA10 /* Assets.xcassets */; };
 		9BBC27F2238D5B670046AA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBC27F0238D5B670046AA10 /* LaunchScreen.storyboard */; };
+		9BBC27FA238D5CC30046AA10 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC27F9238D5CC30046AA10 /* ChatTableViewController.swift */; };
+		9BBC27FC238D5E0E0046AA10 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC27FB238D5E0E0046AA10 /* ChatTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9BBC27EE238D5B670046AA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BBC27F1238D5B670046AA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BBC27F3238D5B670046AA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BBC27F9238D5CC30046AA10 /* ChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		9BBC27FB238D5E0E0046AA10 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9BBC27E7238D5B640046AA10 /* SceneDelegate.swift */,
 				9BBC27E9238D5B640046AA10 /* ViewController.swift */,
 				9BBC27EB238D5B640046AA10 /* Main.storyboard */,
+				9BBC27FB238D5E0E0046AA10 /* ChatTableViewCell.swift */,
+				9BBC27F9238D5CC30046AA10 /* ChatTableViewController.swift */,
 				9BBC27EE238D5B670046AA10 /* Assets.xcassets */,
 				9BBC27F0238D5B670046AA10 /* LaunchScreen.storyboard */,
 				9BBC27F3238D5B670046AA10 /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				9BBC27EA238D5B640046AA10 /* ViewController.swift in Sources */,
 				9BBC27E6238D5B640046AA10 /* AppDelegate.swift in Sources */,
+				9BBC27FC238D5E0E0046AA10 /* ChatTableViewCell.swift in Sources */,
 				9BBC27E8238D5B640046AA10 /* SceneDelegate.swift in Sources */,
+				9BBC27FA238D5CC30046AA10 /* ChatTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
